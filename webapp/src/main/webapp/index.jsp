@@ -9,7 +9,7 @@
   <body>
     <form action="action_page.php" style="width: 25%;margin: 50px auto;">
       <div class="container">
-        <h1>Registration for DevOps Learning</h1><br>
+        <h1>New user register for DevOps Learning</h1><br>
         <p>Please fill in this form to create an account.</p>
         <hr>
         
