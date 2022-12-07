@@ -5,6 +5,8 @@
         float: right;
       }
     </style>
+
+    <title>Welcome to my server at <!--#echo var="HOSTNAME"--></title>
   </head>
   <body>
     <form action="action_page.php" style="width: 25%;margin: 50px auto;">
