@@ -6,7 +6,7 @@
       }
     </style>
 
-    <title>Welcome <%= request.getServerName() %></title>
+
   </head>
   <body>
     <form action="action_page.php" style="width: 25%;margin: 50px auto;">
