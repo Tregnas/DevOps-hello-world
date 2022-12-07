@@ -37,7 +37,7 @@
         
 
         <p style="font-size: small;">By creating an account you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
-        <button type="submit" class="registerbtn" style="padding: 10px 30px; background-color: #33CC33;">Register</button>
+        <button type="submit" class="registerbtn" style="padding: 10px 30px; background-color: #dce31d;">Register</button>
       </div>
       <div class="container signin">
         <p>Already have an account? <a href="#">Sign in</a>.</p>
