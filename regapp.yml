@@ -1,0 +1,13 @@
+---
+- hosts: ansible
+  gather_facts: no
+
+  tasks:
+    - name: Creating docker image
+      command: docker build -t regapp:latest .
+      args:
+        chdir: /opt/docker 
+
+    - name: create tag to push image to hub
+      command: docker tag regapp:latest tregnas/regapp:latest
+

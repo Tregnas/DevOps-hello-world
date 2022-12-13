@@ -1,0 +1,17 @@
+---
+- hosts: dockerhost
+  gather_facts: no
+
+  tasks:
+    - name: stop existing container
+      command: docker stop regapp-server
+      ignore_errors: yes
+      
+    - name: remove it
+      command: docker rm regapp-server
+          
+    - name: remove existing image
+      command: docker rmi -f tregnas/regapp-server
+      
+    - name: create container
+      command: docker run -d --name regapp-server -p 8082:8080 tregnas/regapp:latest
